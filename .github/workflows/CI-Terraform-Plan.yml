@@ -1,4 +1,4 @@
-name: WF3 Terraform Plan
+name: WF3 CI Terraform Plan
 run-name: Running CI Terraform Plan Pipeline by ${{ github.actor }}
 
 on:

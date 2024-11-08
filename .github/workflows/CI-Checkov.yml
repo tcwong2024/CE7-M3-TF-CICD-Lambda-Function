@@ -1,4 +1,4 @@
-name: WF1 CI - Checkov
+name: WF1 CI Checkov
 
 on:
   pull_request:
