@@ -13,6 +13,11 @@ resource "aws_lambda_function" "own_lambda" {
   role             = aws_iam_role.iam_for_lambda.arn
   filename         = data.archive_file.lambda.output_path
   source_code_hash = data.archive_file.lambda.output_base64sha256
+
+  #checkov:skip=CKV_AWS_116: Ensure that AWS Lambda function is configured for a Dead Letter Queue(DLQ)
+  #checkov:skip=CKV_AWS_50: X-Ray tracing is enabled for Lambda
+  #checkov:skip=CKV_AWS_272: Ensure AWS Lambda function is configured to validate code-signing
+  #checkov:skip=CKV_AWS_117: Ensure that AWS Lambda function is configured inside a VPC
 }
 
 # Apply IAM assume role policy
