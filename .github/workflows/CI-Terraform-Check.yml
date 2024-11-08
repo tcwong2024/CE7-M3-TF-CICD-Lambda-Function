@@ -1,4 +1,4 @@
-name: WF 2 CI Terraform Checks
+name: WF2 CI Terraform Checks
 run-name: Running CI Terraform Checks by ${{ github.actor }}
 
 on:
