@@ -6,11 +6,11 @@ variable "region" {
 }
 
 # s3 bucket name
-variable "s3_bucket" {
-  description = "s3 bucket name"
-  type        = string
-  default     = "ce7-grp-2-wtc-s3-bucket"
-}
+# variable "s3_bucket" {
+#   description = "s3 bucket name"
+#   type        = string
+#   default     = "ce7-grp-2-wtc-s3-bucket"
+# }
 
 # lambda function name
 variable "lambda_function_name" {
