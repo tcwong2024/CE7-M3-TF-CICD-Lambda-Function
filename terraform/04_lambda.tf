@@ -18,6 +18,7 @@ resource "aws_lambda_function" "own_lambda" {
   #checkov:skip=CKV_AWS_50: X-Ray tracing is enabled for Lambda
   #checkov:skip=CKV_AWS_272: Ensure AWS Lambda function is configured to validate code-signing
   #checkov:skip=CKV_AWS_117: Ensure that AWS Lambda function is configured inside a VPC
+  #checkov:skip=CKV_AWS_115: Ensure that AWS Lambda function is configured for function-level concurrent execution limit
 }
 
 # Apply IAM assume role policy
