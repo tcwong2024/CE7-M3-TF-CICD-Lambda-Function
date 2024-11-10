@@ -18,12 +18,12 @@
    | Terraform-Destroy.yml | On Workflow Dispatch | To clean up terraform resources created. |
 
 7. Verify the Lambda function at AWS is created and run the test with below json files.
-```
-   {
-    "name": "Teck Choy",
-    "city": "Seoul",
-    "month": "December"
-   }
-```
+   ```
+      {
+       "name": "Teck Choy",
+       "city": "Seoul",
+       "month": "December"
+      }
+   ```
 
-![Screenshot 2024-11-08 232031](https://github.com/user-attachments/assets/756c0c1f-afc5-4c37-98e8-80e01908bb20)
+   ![Screenshot 2024-11-08 232031](https://github.com/user-attachments/assets/756c0c1f-afc5-4c37-98e8-80e01908bb20)
